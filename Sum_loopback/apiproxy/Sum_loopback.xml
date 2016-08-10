@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="2" name="Sum_loopback">
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1470067067606</CreatedAt>
+    <CreatedBy>kandiprashanth52@gmail.com</CreatedBy>
+    <Description>adding two numbers</Description>
+    <DisplayName>Sum_loopback</DisplayName>
+    <LastModifiedAt>1470067067606</LastModifiedAt>
+    <LastModifiedBy>kandiprashanth52@gmail.com</LastModifiedBy>
+    <Policies>
+        <Policy>Assign-Message-1</Policy>
+        <Policy>Extract-Variables-1</Policy>
+        <Policy>XSL-Transform-1</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>xsl://XSL-Transform-1.xsl</Resource>
+    </Resources>
+    <TargetServers/>
+    <TargetEndpoints/>
+</APIProxy>
